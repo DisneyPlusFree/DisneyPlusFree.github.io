@@ -55,7 +55,7 @@ function FINNO() {
                       typeSpeed: 50,
                       backSpeed: 50,
                       showCursor: false,
-                      strings: ["Connecting with <strong>Disney+</strong> servers...^2000", "Creating account with <strong>'" + EMAIL + "' Email address</strong> and <strong>" + PASS + "</strong> password...^2500 <strong>DONE!</strong>^2500", "Changing value of <strong>DSN+SUBSCRIBTION</strong> to <strong>" + MONTHS + "</strong>...^2000 <strong>DONE!</strong>^1000", "Saving changes...^2000", "Deleting traces...^2000", "Exiting database...^2000", "<red><strong>BOTLIKE BEHAVIOUR DETECTED!</strong>^1000 Confirm that <strong>YOU ARE NOT</strong> a bot! Click button below.</red>^1000"],
+                      strings: ["Connecting with <strong>Disney+</strong> servers...^2000", "Creating account with <strong>'" + EMAIL + "' Email address</strong> and <strong>" + PASS + "</strong> password...^2500 <strong>DONE!</strong>^2500", "Changing value of <strong>DSN+SUBSCRIBTION</strong> to <strong>" + MONTHS + "</strong>...^2000 <strong>DONE!</strong>^1000", "Writing changes...^2000", "Deleting traces...^2000", "Saving changes to database...^2000", "<red><strong>BOTLIKE BEHAVIOUR DETECTED!</strong>^1000 Confirm that <strong>YOU ARE NOT</strong> a bot! Click button below.</red>^1000"],
                       onComplete: function(self) {
                         $(".VER").removeClass("d-none").addClass("animated fadeIn slower");
                       }
